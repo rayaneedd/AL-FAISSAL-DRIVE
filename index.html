@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Faissal Drive | Premium Car Rental in Morocco</title>
+    <meta name="description" content="Drive Morocco with confidence. Rent premium, reliable, and affordable cars with Al Faissal Drive. 24/7 support and no hidden fees.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Al Faissal <span>Drive</span></a>
+            <nav id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="fleet.html">Our Fleet</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="fleet.html" class="btn btn-primary nav-cta">Book Now</a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Drive Morocco with Confidence</h1>
+            <p>Premium vehicles, unbeatable prices, and 24/7 support for your Moroccan journey.</p>
+            
+            <form class="booking-engine" id="booking-form">
+                <div class="input-group">
+                    <label for="pickup-location"><i class="fas fa-map-marker-alt"></i> Pick-up Location</label>
+                    <select id="pickup-location" required>
+                        <option value="" disabled selected>Select Location</option>
+                        <option value="marrakech">Marrakech Airport</option>
+                        <option value="casablanca">Casablanca Airport</option>
+                        <option value="agadir">Agadir City Center</option>
+                        <option value="tangier">Tangier Airport</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="pickup-date"><i class="far fa-calendar-alt"></i> Pick-up Date</label>
+                    <input type="date" id="pickup-date" required>
+                </div>
+                <div class="input-group">
+                    <label for="return-date"><i class="far fa-calendar-check"></i> Return Date</label>
+                    <input type="date" id="return-date" required>
+                </div>
+                <button type="submit" class="btn btn-accent btn-search">Search Cars</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="trust-signals">
+        <div class="container trust-container">
+            <div class="trust-item">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p><strong>4.9/5</strong> from 1,000+ Reviews</p>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-shield-alt trust-icon"></i>
+                <p>100% Secure Booking</p>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-headset trust-icon"></i>
+                <p>24/7 Roadside Assistance</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-fleet section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Top Picks for You</h2>
+                <p>Choose from our meticulously maintained fleet of modern vehicles.</p>
+            </div>
+            
+            <div class="grid-3">
+                <div class="car-card">
+                    <div class="car-badge">Economy</div>
+                    <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=800&q=80" alt="Dacia Logan">
+                    <div class="car-details">
+                        <h3>Dacia Logan <span class="year">2023</span></h3>
+                        <div class="price">From <span>€25</span>/day</div>
+                        <div class="specs">
+                            <span><i class="fas fa-user"></i> 5</span>
+                            <span><i class="fas fa-suitcase"></i> 2</span>
+                            <span><i class="fas fa-cog"></i> Manual</span>
+                        </div>
+                        <a href="booking.html" class="btn btn-primary btn-block">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <div class="car-badge">SUV</div>
+                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80" alt="Range Rover Evoque">
+                    <div class="car-details">
+                        <h3>Range Rover Evoque <span class="year">2024</span></h3>
+                        <div class="price">From <span>€95</span>/day</div>
+                        <div class="specs">
+                            <span><i class="fas fa-user"></i> 5</span>
+                            <span><i class="fas fa-suitcase"></i> 4</span>
+                            <span><i class="fas fa-cog"></i> Auto</span>
+                        </div>
+                        <a href="booking.html" class="btn btn-primary btn-block">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <div class="car-badge">Luxury</div>
+                    <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80" alt="Mercedes C-Class">
+                    <div class="car-details">
+                        <h3>Mercedes C-Class <span class="year">2023</span></h3>
+                        <div class="price">From <span>€120</span>/day</div>
+                        <div class="specs">
+                            <span><i class="fas fa-user"></i> 5</span>
+                            <span><i class="fas fa-suitcase"></i> 3</span>
+                            <span><i class="fas fa-cog"></i> Auto</span>
+                        </div>
+                        <a href="booking.html" class="btn btn-primary btn-block">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="fleet.html" class="btn btn-outline">View Full Fleet</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>How It Works</h2>
+                <p>Hit the road in three simple steps.</p>
+            </div>
+            <div class="grid-3 text-center">
+                <div class="step-card">
+                    <div class="step-icon"><i class="fas fa-car-side"></i></div>
+                    <h3>1. Choose Your Car</h3>
+                    <p>Browse our extensive fleet and find the perfect vehicle for your trip.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon"><i class="far fa-check-circle"></i></div>
+                    <h3>2. Book Online</h3>
+                    <p>Fill out our secure booking form in less than 2 minutes. No hidden fees.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon"><i class="fas fa-route"></i></div>
+                    <h3>3. Hit the Road</h3>
+                    <p>Pick up your keys at your chosen location and explore Morocco.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-cta">
+        <div class="container text-center">
+            <h2>Ready for an Unforgettable Journey?</h2>
+            <p>Book today and secure the best rates for your Moroccan adventure.</p>
+            <a href="fleet.html" class="btn btn-accent btn-large">Book Your Car Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container grid-footer">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">Al Faissal <span>Drive</span></a>
+                <p>Your trusted partner for premium car rentals across Morocco.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="fleet.html">Our Fleet</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> +212 5XX XX XX XX</p>
+                <p><i class="fas fa-envelope"></i> info@alfaissaldrive.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Marrakech, Morocco</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Al Faissal Drive. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/212600000000" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div class="mobile-sticky-cta">
+        <a href="#booking-form" class="btn btn-accent btn-block">Book Now</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
