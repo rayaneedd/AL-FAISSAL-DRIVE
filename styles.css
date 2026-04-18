@@ -357,3 +357,18 @@ footer {
     .whatsapp-float { bottom: 90px; right: 20px; }
     .mobile-sticky-cta { display: block; }
 }
+/* Page Header for Inner Pages */
+.page-header {
+    padding: 120px 0 60px;
+    background: var(--text-dark);
+    color: white;
+    text-align: center;
+}
+.page-header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.page-header p {
+    color: #ccc;
+    font-size: 1.1rem;
+}
